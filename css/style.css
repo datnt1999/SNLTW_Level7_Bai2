@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap");
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none !important;
+  transition: all 0.2s linear;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 6rem;
+}
+html::-webkit-scrollbar {
+  width: 1rem;
+}
+html::-webkit-scrollbar-track {
+  background: transparent;
+}
+html::-webkit-scrollbar-thumb {
+  background: #512a10;
+}
+
+section {
+  padding: 5rem 1rem;
+}
+
+.header {
+  z-index: 1000;
+  padding: 4rem 0;
+}
+.header.active {
+  padding: 2rem 0;
+  background: #512a10;
+}
+.header .logo {
+  font-size: 2.5rem;
+  color: #fff;
+  font-weight: bolder;
+}
+.header .navbar-nav li a {
+  font-size: 2rem;
+  margin-right: 2rem;
+  color: #fff;
+}
+.header .navbar-nav li a:hover {
+  text-decoration: underline !important;
+  text-underline-offset: 0.5rem;
+}
+.header .navbar-toggler {
+  font-size: 2rem;
+  background-color: #fff;
+}
+.header .icons div {
+  font-size: 2.5rem;
+  color: #fff !important;
+  margin-left: 2rem;
+  cursor: pointer;
+}
+.header .icons div .dropdown-item {
+  font-size: 1.4rem;
+}
+
+.home {
+  background: url(../images/home-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.home span {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.home h3 {
+  padding-top: 1rem;
+  font-size: 5.5rem;
+  color: #fff;
+}
+.home .link-btn {
+  display: block;
+  width: auto;
+  align-self: flex-start !important;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+  margin-top: 2rem;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 1.4rem;
+}
+
+.button-box {
+  width: 22rem;
+  margin: 2.5rem auto;
+  position: relative;
+  box-shadow: 0 0 2rem 0.9rem #eee;
+  border-radius: 3rem;
+}
+
+.form-box .logo {
+  font-size: 2rem;
+  color: #512a10;
+  font-weight: bolder;
+}
+
+.register-login {
+  position: relative;
+}
+.register-login .input-group {
+  text-align: center;
+}
+.register-login .input-group h3 {
+  display: block;
+  font-size: 1.8rem;
+  width: 100%;
+  margin: 1.5rem auto;
+}
+.register-login .input-group .box {
+  display: inline-block;
+  width: 100%;
+  padding: 1rem 2rem;
+  margin: 0.5rem 0;
+  border-bottom: 1px solid #999;
+  font-size: 1.6rem;
+}
+.register-login .input-group .modifier-password {
+  width: 100%;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+}
+.register-login .input-group .submit-btn {
+  width: 70%;
+  margin: 4rem auto !important;
+  padding: 1rem 3rem;
+  cursor: pointer;
+  border: 0;
+  display: inline-block;
+  font-size: 1.2rem;
+  color: #eee;
+  border-radius: 30px !important;
+  background: linear-gradient(to right, #512a10, #666);
+}
+
+@media (max-width: 990px) {
+  .nav-item {
+    width: 100%;
+    line-height: 4rem;
+    background-color: #fff;
+    border-bottom: 1px solid #512a10 !important;
+  }
+  .nav-item .nav-link {
+    color: #512a10 !important;
+    margin-left: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */
